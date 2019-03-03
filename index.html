@@ -1,0 +1,67 @@
+<head>
+   <style type="text/css">
+     html,
+      body {
+  background: #000;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.marquee {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+svg {
+  display: block;
+}
+.logo {
+  fill: #fff;
+}
+h1{
+        -webkit-animation: color-change 1s infinite;
+        -moz-animation: color-change 1s infinite;
+        -o-animation: color-change 1s infinite;
+        -ms-animation: color-change 1s infinite;
+        animation: color-change 1s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
+    @-moz-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
+    @-ms-keyframes color-change {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: red; }
+    }
+    @-o-keyframes color-change {
+        0% { color: red; }
+        25% { color: purple; }
+        50% { color: blue; }
+        100% { color: green; }
+    }
+    @keyframes color-change {
+        0% { color: red; }
+        25% { color: purple; }
+        50% { color: blue; }
+        100% { color: green; }
+    }
+   </style>
+</head>
+<body>
+  <div class="marquee">
+    <h1>Eta wen?</h1>
+  </div>
+  <script src="animate.js"></script>
+</body>
